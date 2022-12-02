@@ -5,4 +5,7 @@
 
 
 ### Используемые технологии при разработке: 
-Html5 (header , main , footer , section , nav, h1-h6, flex, grid), Css (реализованно состояние :hover для ссылок, используются media правила), БЭМ - методология (файловая система и классы), сжатие фотографий (FileOptimizer), Validation Service (W3.org), система контроля версий Git, Удаленный репозиторий Git-Hub, консоль Git-Bash.
+Html5 (header , main , footer , section , nav, h1-h6, flex, grid), Css (реализованно состояние :hover для ссылок, используются media ), БЭМ - методология (файловая система и классы), сжатие фотографий (FileOptimizer), Validation Service (W3.org), система контроля версий Git, Удаленный репозиторий Git-Hub, консоль Git-Bash.
+
+
+* [Ссылка на проект Git-Hub Pages](https://limerok.github.io/russian-travel/)
