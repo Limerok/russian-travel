@@ -30,6 +30,7 @@
 
 @import url(../blocks/page/__gallery/page__gallery.css);
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__photo-grid/gallery__photo-grid.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__item-image/photo-grid__item-image.css);
