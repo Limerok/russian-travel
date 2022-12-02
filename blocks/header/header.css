@@ -1,6 +1,21 @@
 .header{
   max-width: 1280px;
   padding: 28px 48px 56px;
+  box-sizing: content-box;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width:1024px) {
+  .header{
+    max-width: 928px;
+    padding: 28px 24px 48px;
+  }
+}
+
+@media (max-width:768px) {
+  .header{
+    max-width: 720px;
+    padding: 28px 16px 48px;
+  }
 }

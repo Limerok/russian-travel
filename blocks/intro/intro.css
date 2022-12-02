@@ -1,5 +1,22 @@
 .intro{
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 0 48px;
+  box-sizing: content-box;
+}
+
+@media (max-width:1024px) {
+  .intro{
+    max-width: 928px;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width:768px) {
+  .intro{
+    max-width: 720px;
+    padding: 0 16px;
+  }
 }

@@ -7,3 +7,19 @@
   text-align: center;
   max-width: 720px;
 }
+
+@media (max-width:768px) {
+  .lead__title{
+    padding: 0 16px;
+    box-sizing: content-box;
+    font-size: calc(100vw / 8);
+    line-height: calc(100vw/8 + 4px);
+  }
+}
+
+@media (max-width:450px) {
+  .lead__title{
+    margin: 0 0 16px;
+    padding: 0;
+  }
+}

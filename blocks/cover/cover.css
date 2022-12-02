@@ -28,3 +28,20 @@
 .cover:hover::before{
   background-color:rgba(0, 0, 0, 0.25);
 }
+
+@media (max-width:1024px) {
+  .cover{
+    min-height: 640px;
+  }
+}
+
+@media (max-width:768px) {
+  .cover{
+    min-height: 480px;
+  }
+}
+@media (max-width:400px) {
+  .cover{
+    min-height: 200px;
+  }
+}

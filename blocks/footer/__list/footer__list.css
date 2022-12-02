@@ -8,3 +8,12 @@
   align-items: center;
   gap: 18px;
 }
+
+@media (max-width:500px) {
+  .footer__list{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+  }
+}
