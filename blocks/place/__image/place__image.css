@@ -1,13 +1,3 @@
 .place__image{
   width: 100%;
-  transition: 0.7s;
-}
-.place__image:hover{
-  transform: scale(1.1);
-}
-
-@media (max-width:768px) {
-  .place__image:hover{
-    transform: scale(1);
-  }
 }

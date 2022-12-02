@@ -1,32 +1,10 @@
 .cover{
-  position: relative;
   max-width: 1184px;
   min-height: 740px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-image: url(.././../images/cover__background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.cover::before{
-	content: '';
-	display: block;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color:rgba(0, 0, 0, 0);
-  z-index: 1;
-  transition: 0.5s;
-}
-.cover:hover::before{
-  background-color:rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width:1024px) {
